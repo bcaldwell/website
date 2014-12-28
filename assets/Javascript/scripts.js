@@ -1,5 +1,4 @@
 $(window).ready(function () {
-  console.log("hi");
   $(window).scroll(function () {
     if ($(this).scrollTop() > 150) {
       $("header").addClass("fix-header");
