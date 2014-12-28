@@ -18,7 +18,7 @@ body {
     min-width: 800px;
 }
 .picture {
-    background: white;
+    /*background: white;*/
     height: 200px;
     padding: 0px;
     margin: 0px 5% 0px 5%;
