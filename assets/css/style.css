@@ -1,3 +1,5 @@
+/*http://www.colourlovers.com/palette/3598986/Kindergarten with #e2db5c*/
+
 body {
     overflow: auto;
     position: relative;
@@ -16,7 +18,7 @@ body {
     min-width: 800px;
 }
 .picture {
-    /*background: #c2c2c2;*/
+    background: white;
     height: 200px;
     padding: 0px;
     margin: 0px 5% 0px 5%;
@@ -58,7 +60,7 @@ nav
 }
 nav a
 {
-    font-family: 'Open+Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size:25px;
     /* margin:10px 0; */
     /* height:50px; */
@@ -80,14 +82,17 @@ nav a:hover
 
 #about {
     background: #FF9537;
+    background: rgba(255,149,55,0.75);
 }
 
 #skills {
     background: #4CBDBD;
+    background: rgba(76,189,189,0.75);
 }
 
 #projects {
     background: #D779DA;
+    background: rgba(215,121,218,0.75);
 }
 
 
