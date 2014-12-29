@@ -118,21 +118,54 @@ nav a:hover
     font-family: 'Montserrat', sans-serif;
 }
 
-.skillsList {
-    color:rgb(255,255,255);
-    padding: 20%;
-    margin:0px;
-    font-size: 30px;
+.container {
+    text-align: justify;
+    margin: 50px;
+    padding:50px;
 }
 
-.skillsList li:nth-child(1) {
+.container div {
+  width: 400px;
+  /*height: 125px;*/
+  display: inline-block;
+  background: blue;
+}
+
+.container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+.skillsList {
+    /*display: inline-block;*/
+/*    color:rgb(255,255,255);
+    text-align: left;
+    /*padding: 5% 20%;*/
+    margin:0px;*/
+    font-size: 200%;
+}
+
+#web{
+    /*padding: 20px;*/
+}
+
+#web li:nth-child(1) {
+    list-style-image: url('../img/html.png');
+}
+#web li:nth-child(2) {
+    list-style-image: url('../img/css.png');
+}
+#web li:nth-child(3) {
+    list-style-image: url('../img/javascript.png');
+}
+
+#programming{
+
+}
+
+#programming li:nth-child(1) {
     list-style-image: url('../img/Python-logo-notext.png');
-}
-.skillsList li:nth-child(2) {
-    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal02.png');
-}
-.skillsList li:nth-child(3) {
-    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal03.png');
 }
 
 
