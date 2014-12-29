@@ -18,6 +18,7 @@ body {
 }
 .picture {
     /*background: white;*/
+    position: relative;
     height: 500px;
     padding: 0px;
     margin: 0px 0% 0px 0%;
@@ -51,6 +52,7 @@ header {
 header.fix-header {
     min-width: 650px;
     width: 100%;
+    z-index: 1000;
     /*background-color:rgba(255, 255, 255, 0.8);*/
     position: fixed;
     top: 0px;     
@@ -95,18 +97,28 @@ nav a:hover
 
 #about {
     background: #FF5F57;
-    background: rgba(255,95,87,0.9);
+    background: rgba(255,95,87,1);
 }
 
 #skills {
     background: #FF9537;
-    background: rgba(255,149,55,0.9);
+    background: rgba(255,149,55,1);
 }
 
 #projects {
     background: #D779DA;
-    background: rgba(215,121,218,0.9);
+    background: rgba(215,121,218,1);
 }
 
+.title {
+    position: absolute;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    top:200px;
+    color: #FF5F57;
+    font-size:100px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
