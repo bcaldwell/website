@@ -118,4 +118,21 @@ nav a:hover
     font-family: 'Montserrat', sans-serif;
 }
 
+.skillsList {
+    color:rgb(255,255,255);
+    padding: 20%;
+    margin:0px;
+    font-size: 30px;
+}
+
+.skillsList li:nth-child(1) {
+    list-style-image: url('../img/Python-logo-notext.png');
+}
+.skillsList li:nth-child(2) {
+    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal02.png');
+}
+.skillsList li:nth-child(3) {
+    list-style-image: url('http://google-maps-icons.googlecode.com/files/teal03.png');
+}
+
 
