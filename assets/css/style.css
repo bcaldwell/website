@@ -20,7 +20,7 @@ body {
     /*background: white;*/
     height: 500px;
     padding: 0px;
-    margin: 0px 5% 0px 5%;
+    margin: 0px 0% 0px 0%;
     border: 0px solid black;
 }
 
@@ -81,10 +81,16 @@ nav a:hover
 .section {
     color: white;
     height: 1000px;
-    margin: 50px 5% 50px 5%;
-    border-radius: 100px;
+    margin: 0px 0% 0px 0%;
+    border-radius: 0px;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+.section h1 {
+    text-align: center;
+    padding:0px;
+    margin:0px;
 }
 
 #about {
