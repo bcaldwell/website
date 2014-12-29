@@ -142,7 +142,17 @@ nav a:hover
     text-align: left;
     /*padding: 5% 20%;*/
     /*margin:0px;*/
-    font-size: 200%;
+    /*font-size: 200%;*/
+}
+
+.skillsList li {
+    background: no-repeat 0 0px;
+    padding-left: 60px;
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 14px;
+    list-style:none;
+    /*background-size: 50px 50px; /*height set to 50px*/*/
 }
 
 #web{
@@ -150,13 +160,16 @@ nav a:hover
 }
 
 #web li:nth-child(1) {
-    list-style-image: url('../img/html.png');
+    background: url('../img/html.png') no-repeat 0px;
 }
 #web li:nth-child(2) {
-    list-style-image: url('../img/css.png');
+    background: url('../img/css.png') no-repeat 0px;
 }
 #web li:nth-child(3) {
-    list-style-image: url('../img/javascript.png');
+    background: url('../img/javascript.png') no-repeat 0px;
+}
+#web li:nth-child(4) {
+    background: url('../img/nodejs.png') no-repeat 0px;
 }
 
 #programming{
@@ -164,7 +177,33 @@ nav a:hover
 }
 
 #programming li:nth-child(1) {
-    list-style-image: url('../img/Python-logo-notext.png');
+    background: url('../img/python.png') no-repeat 0px;
+}
+#programming li:nth-child(2) {
+    background: url('../img/c++.png') no-repeat 0px;
+}
+#programming li:nth-child(3) {
+    background: url('../img/java.png') no-repeat 0px;
+}
+
+#design {
+
+}
+
+#design li:nth-child(1) {
+    background: url('../img/photoshop.png') no-repeat 0px;
+}
+#design li:nth-child(2) {
+    background: url('../img/solidworks.png') no-repeat 0px;
+}
+#design li:nth-child(3) {
+    background: url('../img/illustrator.png') no-repeat 0px;
+}
+#design li:nth-child(4) {
+    background: url('../img/cookie.png') no-repeat 0px;
+}
+#design li:nth-child(5) {
+    background: url('../img/pillow.png') no-repeat 0px;
 }
 
 
