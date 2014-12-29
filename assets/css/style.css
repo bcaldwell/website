@@ -120,14 +120,14 @@ nav a:hover
 
 .container {
     text-align: justify;
-    margin: 0px 15% 0px 15%;
-    padding:50px;
+    margin: 0px 10% 0px 10%;
 }
 
 .container div {
   width: auto;
   display: inline-block;
   vertical-align:top;
+  padding-top: 25px;
 }
 
 .container:after {
@@ -137,12 +137,7 @@ nav a:hover
 }
 
 .skillsList {
-    /*display: inline-block;*/
-    /*color:rgb(255,255,255);*/
     text-align: left;
-    /*padding: 5% 20%;*/
-    /*margin:0px;*/
-    /*font-size: 200%;*/
 }
 
 .skillsList li {
