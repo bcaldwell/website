@@ -24,6 +24,12 @@ body {
     border: 0px solid black;
 }
 
+.picture img {
+    text-align: center;
+    padding:0px;
+    margin:0px;
+}
+
 .picture h2 {
     text-align: center;
     padding:0px;
@@ -32,8 +38,8 @@ body {
 
 header {
     position: absolute;
-    background-color:rgba(64, 58, 56, 0.5);
-    color: white;
+    background-color:rgba(255, 255, 255, 0.8);
+    color: black;
     height: 50px;
     padding: 0px;
     margin: 0px;
@@ -45,7 +51,7 @@ header {
 header.fix-header {
     min-width: 650px;
     width: 100%;
-    background-color:rgba(64, 58, 56, 1);
+    background-color:rgba(255, 255, 255, 0.8);
     position: fixed;
     top: 0px;     
 }
@@ -64,12 +70,12 @@ nav a
     /* margin:10px 0; */
     /* height:50px; */
     padding:15px 10px;
-    color:white;
+    color:black;
     text-decoration:none;
 }
 nav a:hover
 {
-    color:#e2db5c;
+    color:#FF5F57;
 }
 
 .section {
@@ -77,6 +83,8 @@ nav a:hover
     height: 1000px;
     margin: 50px 5% 50px 5%;
     border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #about {
