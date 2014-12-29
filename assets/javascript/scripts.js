@@ -1,6 +1,6 @@
 $(window).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 150) {
+    if ($(this).scrollTop() > 450) {
       $("header").addClass("fix-header");
     } else {
       $("header").removeClass("fix-header");
