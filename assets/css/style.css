@@ -43,7 +43,7 @@ header {
     height: 50px;
     padding: 0px;
     margin: 0px;
-    top: 450px;
+    top: 550px;
     width: 100%;
     /*margin:0px 100px 0px 5%;*/
     
@@ -55,6 +55,29 @@ header.fix-header {
     /*background-color:rgba(255, 255, 255, 0.8);*/
     position: fixed;
     top: 0px;     
+}
+
+
+.title {
+    position: absolute;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    top:200px;
+    color: #FF5F57;
+    font-size:100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subtitle {
+    position: absolute;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    color: #FF9537;
+    width: 100%;
+    top:350px;
+    font-size:50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav
@@ -105,17 +128,6 @@ nav a:hover
 
 #projects {
     background: #D779DA;
-}
-
-.title {
-    position: absolute;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.7);
-    width: 100%;
-    top:200px;
-    color: #FF5F57;
-    font-size:100px;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
