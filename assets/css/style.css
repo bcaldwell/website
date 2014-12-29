@@ -97,17 +97,14 @@ nav a:hover
 
 #about {
     background: #FF5F57;
-    background: rgba(255,95,87,1);
 }
 
 #skills {
-    background: #FF9537;
-    background: rgba(255,149,55,1);
+    background: #FF5F57; /*#FF9537*/
 }
 
 #projects {
-    background: #D779DA;
-    background: rgba(215,121,218,1);
+    background: #FF5F57;/*#D779DA*/
 }
 
 .title {
