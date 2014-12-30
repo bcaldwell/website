@@ -30,8 +30,9 @@ body {
 }
 
 #titlePicture {
-    height: 100%;
-    max-height: 1000px;
+    height: 1000px;
+    background-color: red;
+    margin: 0px;
 }
 #titlePicture .title {
     top:100px;
@@ -49,13 +50,13 @@ header {
     margin: 0px;
     top: 550px;
     width: 100%;
+    z-index: 1000;
+    min-width: 650px;
     /*margin:0px 100px 0px 5%;*/
     
 }
 header.fix-header {
-    min-width: 650px;
     width: 100%;
-    z-index: 1000;
     /*background-color:rgba(255, 255, 255, 0.8);*/
     position: fixed;
     top: 0px;     

@@ -1,4 +1,8 @@
+$('titlePicture').height(screen.height);
 $(window).ready(function () {
+  console.log(screen.height);
+  $('titlePicture').height(screen.height);
+
   $(window).scroll(function () {
     if ($(this).scrollTop() > 550) {
       $("header").addClass("fix-header");
