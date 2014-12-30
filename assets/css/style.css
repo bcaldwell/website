@@ -206,12 +206,6 @@ nav a:hover
 #design li:nth-child(3) {
     background: url('../img/illustrator.png') no-repeat 0px;
 }
-#design li:nth-child(4) {
-    background: url('../img/cookie.png') no-repeat 0px;
-}
-#design li:nth-child(5) {
-    background: url('../img/pillow.png') no-repeat 0px;
-}
 
 #footer {
     color:white;
