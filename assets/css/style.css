@@ -11,7 +11,7 @@ body {
 .picture {
     /*background: white;*/
     position: relative;
-    height: 500px;
+    height: 300px;
     padding: 0px;
     margin: 0px 0% 0px 0%;
     border: 0px solid black;
@@ -31,6 +31,13 @@ body {
 
 #titlePicture {
     height: 100%;
+    max-height: 1000px;
+}
+#titlePicture .title {
+    top:100px;
+}
+#titlePicture .subtitle {
+    top:250px;
 }
 
 header {
@@ -60,7 +67,7 @@ header.fix-header {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.7);
     width: 100%;
-    top:200px;
+    top:50px;
     color: #FF5F57;
     font-size:100px;
     font-family: 'Montserrat', sans-serif;
