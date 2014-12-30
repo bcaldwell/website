@@ -71,6 +71,7 @@ header.fix-header {
     width: 100%;
     top:50px;
     color: #FF5F57;
+    color: white;
     font-size:100px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -84,6 +85,16 @@ header.fix-header {
     top:350px;
     font-size:50px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.headertitle {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    color: white;
+    font-size:100px;
+    font-family: 'Montserrat', sans-serif;
+    /*margin:30px 0px 20px 0px;*/
 }
 
 nav
