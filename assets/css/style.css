@@ -7,6 +7,7 @@ body {
     background: #000000; /* Old browsers */
     min-width: 900px;
 }
+
 .picture {
     /*background: white;*/
     position: relative;
@@ -26,6 +27,10 @@ body {
     text-align: center;
     padding:0px;
     margin:0px;
+}
+
+#titlePicture {
+    height: 100%;
 }
 
 header {
@@ -204,13 +209,7 @@ nav a:hover
     background: url('../img/illustrator.png') no-repeat 0px;
 }
 #design li:nth-child(4) {
-    background: url('../img/osx.png') no-repeat 0px;
-}
-#design li:nth-child(5) {
     background: url('../img/linux.png') no-repeat 0px;
-}
-#design li:nth-child(6) {
-    background: url('../img/windows.png') no-repeat 0px;
 }
 
 #footer {
