@@ -170,7 +170,8 @@ nav a:hover
 /*equal spacing div, used in skills and projects*/
 .container {
     text-align: justify;
-    margin: 0px 12% 0px 12%;
+    text-align:center;
+    margin: 0px 30px 0px 30px;
 }
 
 .container div {
@@ -180,11 +181,11 @@ nav a:hover
   padding-top: 25px;
 }
 
-.container:after {
+/*.container:after {
   content: '';
-  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  width: 100%;  Ensures there are at least 2 lines of text, so justification works 
   display: inline-block;
-}
+}*/
 
 /*Skills section*/
 
@@ -266,12 +267,14 @@ nav a:hover
     height: 400px;
     border-radius: 20px;
     text-align:center;
+    border: 10px solid #954298;
+
     /*margin-left: 100px;*/
 
 }
 
 .project:hover {
-    background-color: #EE1C01;
+    border: 10px solid black;
 }
 
 .project img {
