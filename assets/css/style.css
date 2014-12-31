@@ -32,7 +32,6 @@ body {
 #titlePicture {
     min-height: 600px;
     height: 100vh;
-    background-color: red;
     margin: 0px;
 }
 #titlePicture .title {
@@ -133,6 +132,7 @@ nav a:hover
 
 #about {
     background: #FF5F57;
+    height: auto;
 }
 
 #skills {
@@ -144,6 +144,33 @@ nav a:hover
     background: #D779DA;
 }
 
+/*About Me section*/
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin:0px auto;
+    text-align: center;
+    display: block;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#about p {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    padding: 20px 0px 20px 0px;
+}
+#about p span {
+    color:black;
+}
+
+/*Skills section*/
 .container {
     text-align: justify;
     margin: 0px 10% 0px 10%;
