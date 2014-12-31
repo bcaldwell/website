@@ -117,11 +117,10 @@ nav a:hover
 
 .section {
     color: white;
-    height: 1000px;
+    height: auto;
     margin: 0px 0% 0px 0%;
     border-radius: 0px;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .section h1 {
@@ -132,12 +131,10 @@ nav a:hover
 
 #about {
     background: #EE1C01;
-    height: auto;
 }
 
 #skills {
     background: #FF8A06;
-    height: auto;
 }
 
 #projects {
@@ -170,12 +167,10 @@ nav a:hover
     color:black;
 }
 
-/*Skills section*/
-
 /*equal spacing div, used in skills and projects*/
 .container {
     text-align: justify;
-    margin: 0px 10% 0px 10%;
+    margin: 0px 12% 0px 12%;
 }
 
 .container div {
@@ -190,6 +185,8 @@ nav a:hover
   width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
   display: inline-block;
 }
+
+/*Skills section*/
 
 .skillsList {
     text-align: left;
