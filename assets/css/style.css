@@ -6,6 +6,8 @@ body {
     margin:0px;
     background: #000000; /* Old browsers */
     min-width: 900px;
+    background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed; 
+    background-size: cover;
 }
 
 .picture {
@@ -14,7 +16,6 @@ body {
     height: 300px;
     padding: 0px;
     margin: 0px 0% 0px 0%;
-    border: 0px solid black;
 }
 
 .picture img {
@@ -104,8 +105,6 @@ nav a
 {
     font-family: 'Montserrat', sans-serif;
     font-size:25px;
-    /* margin:10px 0; */
-    /* height:50px; */
     padding:15px 10px;
     color:black;
     text-decoration:none;
@@ -169,8 +168,7 @@ nav a:hover
 
 /*equal spacing div, used in skills and projects*/
 .container {
-    text-align: justify;
-    text-align:center;
+    text-align: center;
     margin: 0px 30px 0px 30px;
 }
 
@@ -180,12 +178,6 @@ nav a:hover
   vertical-align:top;
   padding-top: 25px;
 }
-
-/*.container:after {
-  content: '';
-  width: 100%;  Ensures there are at least 2 lines of text, so justification works 
-  display: inline-block;
-}*/
 
 /*Skills section*/
 
