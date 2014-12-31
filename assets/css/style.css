@@ -53,13 +53,13 @@ header {
     z-index: 1000;
     min-width: 650px;
     /*margin:0px 100px 0px 5%;*/
-    
+
 }
 header.fix-header {
     width: 100%;
     /*background-color:rgba(255, 255, 255, 0.8);*/
     position: fixed;
-    top: 0px;     
+    top: 0px;
 }
 
 
@@ -112,7 +112,7 @@ nav a
 }
 nav a:hover
 {
-    color:#FF5F57;
+    color:#EE1C01;
 }
 
 .section {
@@ -171,6 +171,8 @@ nav a:hover
 }
 
 /*Skills section*/
+
+/*equal spacing div, used in skills and projects*/
 .container {
     text-align: justify;
     margin: 0px 10% 0px 10%;
@@ -200,7 +202,7 @@ nav a:hover
     font-size: 30px;
     margin-top: 14px;
     list-style:none;
-    /*background-size: 50px 50px; /*height set to 50px*/*/
+    /*background-size: 50px 50px; /*height set to 50px*/
 }
 
 #web{
@@ -257,6 +259,37 @@ nav a:hover
     background: url('../img/linux.png') no-repeat 0px;
 }
 
+/*project section*/
+
+.project {
+    margin: 40px;
+    background-color: white;
+    min-width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    /*margin-left: 100px;*/
+
+}
+
+.project:hover {
+    background-color: #EE1C01;
+}
+
+.project img {
+    height:200px;
+    width: 200px;
+    border-color: black;
+}
+
+.project h1 {
+    color:black;
+}
+
+.project p {
+    color: black;
+    padding: 0 30px 10px 30px;
+}
+
 #footer {
     color:white;
     height:auto;
@@ -269,4 +302,3 @@ nav a:hover
     margin: 0px;
     padding-left: 10px;
 }
-
