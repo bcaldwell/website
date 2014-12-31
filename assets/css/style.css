@@ -262,8 +262,10 @@ nav a:hover
     margin: 40px;
     background-color: white;
     min-width: 400px;
-    height: 300px;
+    max-width: 400px;
+    height: 400px;
     border-radius: 20px;
+    text-align:center;
     /*margin-left: 100px;*/
 
 }
@@ -280,11 +282,25 @@ nav a:hover
 
 .project h1 {
     color:black;
+    padding-bottom: 10px;
 }
 
 .project p {
     color: black;
     padding: 0 30px 10px 30px;
+}
+
+.project .langTag {
+    background: #F8F8F8;
+    margin:0 auto;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #CCC;
+    min-width: initial;
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+
 }
 
 #footer {
