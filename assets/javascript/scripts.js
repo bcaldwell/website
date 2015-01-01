@@ -1,10 +1,18 @@
 $(window).ready(function () {
   var images = [
-    'https://unsplash.com/photos/xBYD4tt8ANo/download',
-    'https://unsplash.com/photos/58zgsq3c63g/download',
-    'https://unsplash.com/photos/HzaT5l4Fzqc/download'
+    'assets/img/backgrounds/background.jpg',
+    'assets/img/backgrounds/background1.jpg',
+    'assets/img/backgrounds/background2.jpg',
+    'assets/img/backgrounds/background3.jpg',
+    'assets/img/backgrounds/background4.jpg',
+    'assets/img/backgrounds/background5.jpg',
+    'assets/img/backgrounds/background6.jpg',
+    'assets/img/backgrounds/background7.jpg',
+    'assets/img/backgrounds/background8.jpg',
+    'assets/img/backgrounds/background9.jpg',
+    'assets/img/backgrounds/background10.jpg'
   ];
-  $("#backgroundImage").attr('src',images[Math.floor(Math.random()*3)]);
+  $("#backgroundImage").attr('src',images[Math.floor(Math.random()*11)]);
   $(window).scroll(function () {
     if ($(this).scrollTop() > 550) {
       $("header").addClass("fix-header");
