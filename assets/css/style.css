@@ -7,6 +7,9 @@ body {
     background: #000000; /* Old browsers */
     min-width: 900px;
     background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
