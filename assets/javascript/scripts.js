@@ -10,9 +10,10 @@ $(window).ready(function () {
     'assets/img/backgrounds/background7.jpg',
     'assets/img/backgrounds/background8.jpg',
     'assets/img/backgrounds/background9.jpg',
-    'assets/img/backgrounds/background10.jpg'
+    'assets/img/backgrounds/background10.jpg',
+    'assets/img/backgrounds/background11.jpg'
   ];
-  $("#backgroundImage").attr('src',images[Math.floor(Math.random()*11)]);
+  $("#backgroundImage").attr('src',images[Math.floor(Math.random()*12)]);
   $(window).scroll(function () {
     if ($(this).scrollTop() > 550) {
       $("header").addClass("fix-header");
