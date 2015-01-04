@@ -1,3 +1,5 @@
 <h1>My Personal Website</h1>
-<p>Currently a work in progress</p>
+<p></br>Can be found here:</br></p>
+<a href = "http://benjamincaldwell.me/">benjamincaldwell.me</a>
+<HR> 
 =======
