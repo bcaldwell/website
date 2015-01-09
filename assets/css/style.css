@@ -6,7 +6,7 @@ body {
     margin:0px;
     background: #000000; /* Old browsers */
     min-width: 900px;
- /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed; 
+    /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,13 +14,13 @@ body {
 }
 
 #backgroundImage {
-  z-index: -999;
-  min-height: 100%;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
+    z-index: -999;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .picture {
@@ -186,10 +186,10 @@ nav a:hover
 }
 
 .container div {
-  width: auto;
-  display: inline-block;
-  vertical-align:top;
-  padding-top: 25px;
+    width: auto;
+    display: inline-block;
+    vertical-align:top;
+    padding-top: 25px;
 }
 
 /*Skills section*/

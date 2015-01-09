@@ -25,8 +25,7 @@ $(window).ready(function () {
 
     if ($(window).width() < 970) {
         $(".subtitle").css("top",370);
-    };
-
+    }
     $(window).scroll(function () {
         if ($(this).scrollTop() > 550) {
             $("header").addClass("fix-header");
