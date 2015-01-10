@@ -7,9 +7,12 @@ SetEnvIfNoCase Referer BlackHatWorth.com spam=yes
 SetEnvIfNoCase Referer http://blackhatworth.com/marketing/lounge/730430-apple-com-analytics-referral-traffic.html.com spam=yes
 SetEnvIfNoCase User-Agent blackhatworth.com spam=yes
 SetEnvIfNoCase User-Agent blackhatworth.com/marketing/lounge/730430-apple-com-analytics-referral-traffic.html spam=yes
+SetEnvIfNoCase Referer darodar.com spam=yes
+SetEnvIfNoCase Referer priceg.com spam=yes
 Order allow,deny
 Allow from all
 Deny from env=spam
+
 
 Order allow, deny 
 Deny from 78.110.60.230 
