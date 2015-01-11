@@ -67,6 +67,8 @@ header {
   width: 100%;
   z-index: 1000;
   min-width: 650px;
+  overflow:hidden;
+  
   /*margin:0px 100px 0px 5%;*/
 
 }
@@ -114,6 +116,7 @@ nav
   text-align:right;
   padding:15px 20px;
   margin-right:10%;
+  overflow:hidden;
 }
 nav a
 {
