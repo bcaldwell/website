@@ -6,6 +6,7 @@ body {
   margin:0px;
   background: #000000; /* Old browsers */
   min-width: 900px;
+  font-family: 'Montserrat', sans-serif;
   /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -154,6 +155,8 @@ nav a:hover
 }
 #contact {
   background: #954298;
+  padding
+  : 20px;
 }
 
 /*About Me section*/
@@ -316,25 +319,29 @@ nav a:hover
 }
 
 #contact-form {
-  text-align: center;
-  display:block;
-  
+  text-align: left;
+  margin-left: auto ;
+  margin-right: auto ;
+  width: 500px;
+
 }
 
 #contact-form label{
-  /*display: inline-block;*/
-  /*float: left;
-  clear: left;
-  width: 250px;
-  text-align: right;*/
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
-#contact-form input {
+#contact-form .input {
   /*display: inline-block;*/
   /*float: left;*/
+  margin: 10px;
+  width: 100%;
+  border: 5px solid white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 .input:focus{
-  /*background: rgba(0, 0, 0, 0.9);*/
-  border: 5px solid blue;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 #footer {
