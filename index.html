@@ -37,6 +37,7 @@
 		<a href="#about-picture">About Me</a>
 		<a href="#skills-picture">My Skills</a>
 		<a href="#projects-picture">Projects</a>
+		<a href="#contact-me">Contact Me</a>
 		<a target="_blank" href="https://benjamincaldwelleng.wordpress.com">Blog</a>
 		<a target="_blank" href="https://benjaoud.me">Benjaoud</a>
 	</nav>
@@ -137,24 +138,32 @@
 	</div>
 </div>
 
-<div id="footer">
-	<form action="https://getsimpleform.com/messages?form_api_token=e2328ca2cc2aa1b5e3471e48c61aec3a" method="post">
+<div class="picture" id ="contact-me" align="center" style="height:300px;">
+	<!-- <img src="https://unsplash.com/photos/HzaT5l4Fzqc/download" height="100%" width="100%"> -->
+	<h1 class="title">Contact Me</h1>
+</div>
+
+<div class="section" id ="contact">
+	<form id = "contact-form"  action="https://getsimpleform.com/messages?form_api_token=e2328ca2cc2aa1b5e3471e48c61aec3a" method="post">
 		<!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-		<input type="hidden" name="redirect_to" value="http://benjamincaldwell.me/#projects-picture" />
-		<!-- all your input fields here.... -->
-		<input type="text" name="name" />
-		<input type="email" name="title" />
-		<!-- <textarea name="message" /> -->
-		<input type="submit" value="Hit me up" />
+		<div>
+			<input type="hidden" name="redirect_to" value="http://benjamincaldwell.me/#contact-me" />
+			<!-- all your input fields here.... -->
+			<label>Name: </label><br>
+			<input class = "input" type="text" name="name" required/><br>
+			<label>Email: </label><br>
+			<input class = "input" type="email" name="title" required/><br>
+			<label>Message: </label><br>
+			<textarea name="comments" cols="40" rows="6" required></textarea><br>
+			<!-- <textarea name="message" /><br> -->
+
+			<input class = "input" type="submit" value="Send" /><br>
+		</div>
 	</form>
 
-	<form action="//formspree.io/caldwellbenjamin8@gmail.com" method="post">
-		<input type="hidden" name="redirect_to" value="http://benjamincaldwell.me/#projects-picture" />
-		<input type="text" name="name">
-		<input type="email" name="_replyto">
-		<input type="submit" value="Send">
-	</form>
+</div>
 
+<div id="footer">
 	<p>©Benjamin Caldwell 2014</p>
 </div>
 </body>

@@ -1,228 +1,231 @@
 /*http://www.colourlovers.com/palette/3598986/Kindergarten with #e2db5c*/
 body {
-    overflow: auto;
-    position: relative;
-    padding:0px;
-    margin:0px;
-    background: #000000; /* Old browsers */
-    min-width: 900px;
-    /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
+  overflow: auto;
+  position: relative;
+  padding:0px;
+  margin:0px;
+  background: #000000; /* Old browsers */
+  min-width: 900px;
+  /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
 }
 
 #backgroundImage {
-    z-index: -999;
-    min-height: 100%;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
+  z-index: -999;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .picture {
-    /*background: white;*/
-    position: relative;
-    height: 300px;
-    padding: 0px;
-    margin: 0px 0% 0px 0%;
+  /*background: white;*/
+  position: relative;
+  height: 300px;
+  padding: 0px;
+  margin: 0px 0% 0px 0%;
 }
 
 .picture img {
-    text-align: center;
-    padding:0px;
-    margin:0px;
+  text-align: center;
+  padding:0px;
+  margin:0px;
 }
 
 .picture h2 {
-    text-align: center;
-    padding:0px;
-    margin:0px;
+  text-align: center;
+  padding:0px;
+  margin:0px;
 }
 
 #titlePicture {
-    min-height: 600px;
-    height: 100vh;
-    margin: 0px;
+  min-height: 600px;
+  height: 100vh;
+  margin: 0px;
 }
 #titlePicture .title {
-    top:100px;
+  top:100px;
 }
 #titlePicture .subtitle {
-    top:250px;
+  top:250px;
 }
 
 header {
-    position: absolute;
-    background-color:rgba(255, 255, 255, 0.8);
-    color: black;
-    height: 50px;
-    padding: 0px;
-    margin: 0px;
-    top: 550px;
-    width: 100%;
-    z-index: 1000;
-    min-width: 650px;
-    /*margin:0px 100px 0px 5%;*/
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0.8);
+  color: black;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  top: 550px;
+  width: 100%;
+  z-index: 1000;
+  min-width: 650px;
+  /*margin:0px 100px 0px 5%;*/
 
 }
 header.fix-header {
-    width: 100%;
-    /*background-color:rgba(255, 255, 255, 0.8);*/
-    position: fixed;
-    top: 0px;
+  width: 100%;
+  /*background-color:rgba(255, 255, 255, 0.8);*/
+  position: fixed;
+  top: 0px;
 }
 
 
 .title {
-    position: absolute;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.7);
-    width: 100%;
-    top:50px;
-    color: #EE1C01;
-    font-size:100px;
-    font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  top:50px;
+  color: #EE1C01;
+  font-size:100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .subtitle {
-    position: absolute;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.7);
-    color: #FF8A06;
-    width: 100%;
-    top:350px;
-    font-size:50px;
-    font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7);
+  color: #FF8A06;
+  width: 100%;
+  top:350px;
+  font-size:50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .headertitle {
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.7);
-    width: 100%;
-    color: white;
-    font-size:100px;
-    font-family: 'Montserrat', sans-serif;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  color: white;
+  font-size:100px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav
 {
-    text-align:right;
-    padding:15px 20px;
-    margin-right:10%;
+  text-align:right;
+  padding:15px 20px;
+  margin-right:10%;
 }
 nav a
 {
-    font-family: 'Montserrat', sans-serif;
-    font-size:25px;
-    padding:15px 10px;
-    color:black;
-    text-decoration:none;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  padding:15px 10px;
+  color:black;
+  text-decoration:none;
 }
 nav a:hover
 {
-    color:#EE1C01;
+  color:#EE1C01;
 }
 
 .section {
-    color: white;
-    height: auto;
-    margin: 0px 0% 0px 0%;
-    border-radius: 0px;
-    font-family: 'Montserrat', sans-serif;
+  color: white;
+  height: auto;
+  margin: 0px 0% 0px 0%;
+  border-radius: 0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .section h1 {
-    text-align: center;
-    padding:0px;
-    margin:0px;
+  text-align: center;
+  padding:0px;
+  margin:0px;
 }
 
 #about {
-    background: #EE1C01;
+  background: #EE1C01;
 }
 
 #skills {
-    background: #FF8A06;
+  background: #FF8A06;
 }
 
 #projects {
-    background: #954298;
+  background: #954298;
+}
+#contact {
+  background: #954298;
 }
 
 /*About Me section*/
 
 .circle {
-    height: 300px;
-    width: 300px;
-    border-radius: 150px;
-    margin:0px auto;
-    text-align: center;
-    display: block;
-    border-color: white;
-    border-width: 5px;
-    border-style: solid;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin:0px auto;
+  text-align: center;
+  display: block;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
 }
 
 #about p {
-    display: block;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 30px;
-    width: 500px;
-    padding: 20px 0px 20px 0px;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 30px;
+  width: 500px;
+  padding: 20px 0px 20px 0px;
 }
 #about p span {
-    color:black;
+  color:black;
 }
 
 /*equal spacing div, used in skills and projects*/
 .container {
-    text-align: center;
-    margin: 0px 30px 0px 30px;
+  text-align: center;
+  margin: 0px 30px 0px 30px;
 }
 
 .container div {
-    width: auto;
-    display: inline-block;
-    vertical-align:top;
-    padding-top: 25px;
+  width: auto;
+  display: inline-block;
+  vertical-align:top;
+  padding-top: 25px;
 }
 
 /*Skills section*/
 
 .skillsList {
-    text-align: left;
+  text-align: left;
 }
 
 .skillsList li {
-    background: no-repeat 0 0px;
-    padding-left: 60px;
-    line-height: 50px;
-    font-size: 30px;
-    margin-top: 14px;
-    list-style:none;
-    /*background-size: 50px 50px; /*height set to 50px*/
+  background: no-repeat 0 0px;
+  padding-left: 60px;
+  line-height: 50px;
+  font-size: 30px;
+  margin-top: 14px;
+  list-style:none;
+  /*background-size: 50px 50px; /*height set to 50px*/
 }
 
 #web{
-    /*padding: 20px;*/
+  /*padding: 20px;*/
 }
 
 #web li:nth-child(1) {
-    background: url('../img/html.png') no-repeat 0px;
+  background: url('../img/html.png') no-repeat 0px;
 }
 #web li:nth-child(2) {
-    background: url('../img/css.png') no-repeat 0px;
+  background: url('../img/css.png') no-repeat 0px;
 }
 #web li:nth-child(3) {
-    background: url('../img/javascript.png') no-repeat 0px;
+  background: url('../img/javascript.png') no-repeat 0px;
 }
 #web li:nth-child(4) {
-    background: url('../img/nodejs.png') no-repeat 0px;
+  background: url('../img/nodejs.png') no-repeat 0px;
 }
 
 #programming{
@@ -230,19 +233,19 @@ nav a:hover
 }
 
 #programming li:nth-child(1) {
-    background: url('../img/python.png') no-repeat 0px;
+  background: url('../img/python.png') no-repeat 0px;
 }
 #programming li:nth-child(2) {
-    background: url('../img/c++.png') no-repeat 0px;
+  background: url('../img/c++.png') no-repeat 0px;
 }
 #programming li:nth-child(3) {
-    background: url('../img/java.png') no-repeat 0px;
+  background: url('../img/java.png') no-repeat 0px;
 }
 #programming li:nth-child(4) {
-    background: url('../img/arduino.png') no-repeat 0px;
+  background: url('../img/arduino.png') no-repeat 0px;
 }
 #programming li:nth-child(5) {
-    background: url('../img/raspi.png') no-repeat 0px;
+  background: url('../img/raspi.png') no-repeat 0px;
 }
 
 #design {
@@ -250,77 +253,100 @@ nav a:hover
 }
 
 #design li:nth-child(1) {
-    background: url('../img/photoshop.png') no-repeat 0px;
+  background: url('../img/photoshop.png') no-repeat 0px;
 }
 #design li:nth-child(2) {
-    background: url('../img/solidworks.png') no-repeat 0px;
+  background: url('../img/solidworks.png') no-repeat 0px;
 }
 #design li:nth-child(3) {
-    background: url('../img/illustrator.png') no-repeat 0px;
+  background: url('../img/illustrator.png') no-repeat 0px;
 }
 #design li:nth-child(4) {
-    background: url('../img/linux.png') no-repeat 0px;
+  background: url('../img/linux.png') no-repeat 0px;
 }
 
 /*project section*/
 
 .project {
-    margin: 40px;
-    background-color: white;
-    min-width: 400px;
-    max-width: 400px;
-    height: 500px;
-    border-radius: 20px;
-    text-align:center;
-    border: 10px solid #954298;
+  margin: 40px;
+  background-color: white;
+  min-width: 400px;
+  max-width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  text-align:center;
+  border: 10px solid #954298;
 
-    /*margin-left: 100px;*/
+  /*margin-left: 100px;*/
 
 }
 
 .project:hover {
-    border: 10px solid black;
+  border: 10px solid black;
 }
 
 .project img {
-    height:200px;
-    width: 200px;
-    border-color: black;
-    background-color: white;
+  height:200px;
+  width: 200px;
+  border-color: black;
+  background-color: white;
 }
 
 .project h1 {
-    color:black;
-    padding-bottom: 10px;
+  color:black;
+  padding-bottom: 10px;
 }
 
 .project p {
-    color: black;
-    padding: 0 30px 10px 30px;
+  color: black;
+  padding: 0 30px 10px 30px;
 }
 
 .project .langTag {
-    background: #F8F8F8;
-    margin:0 auto;
-    padding: 0;
-    text-align: center;
-    display: inline-block;
-    border: 2px solid #CCC;
-    min-width: initial;
-    padding: 0px 10px 0px 10px;
-    border-radius: 10px;
+  background: #F8F8F8;
+  margin:0 auto;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #CCC;
+  min-width: initial;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
 
+}
+
+#contact-form {
+  text-align: center;
+  display:block;
+  
+}
+
+#contact-form label{
+  /*display: inline-block;*/
+  /*float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;*/
+}
+#contact-form input {
+  /*display: inline-block;*/
+  /*float: left;*/
+}
+.input:focus{
+  /*background: rgba(0, 0, 0, 0.9);*/
+  border: 5px solid blue;
 }
 
 #footer {
-    color:white;
-    height:auto;
-    margin: 0px;
-    padding: 0px;
-    background:#954298;
+  color:white;
+  height:auto;
+  margin: 0px;
+  padding: 0px;
+  background:#954298;
+
 }
 
 #footer p {
-    margin: 0px;
-    padding-left: 10px;
+  margin: 0px;
+  padding-left: 10px;
 }
