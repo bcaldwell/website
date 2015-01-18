@@ -2,8 +2,8 @@
 body {
   overflow: auto;
   position: relative;
-  padding:0px;
-  margin:0px;
+  padding:0;
+  margin:0;
   background: #000000; /* Old browsers */
   min-width: 900px;
   font-family: 'Montserrat', sans-serif;
@@ -28,26 +28,26 @@ body {
   /*background: white;*/
   position: relative;
   height: 300px;
-  padding: 0px;
-  margin: 0px 0% 0px 0%;
+  padding: 0;
+  margin: 0 0% 0 0%;
 }
 
 .picture img {
   text-align: center;
-  padding:0px;
-  margin:0px;
+  padding:0;
+  margin:0;
 }
 
 .picture h2 {
   text-align: center;
-  padding:0px;
-  margin:0px;
+  padding:0;
+  margin:0;
 }
 
 #titlePicture {
   min-height: 600px;
   height: 100vh;
-  margin: 0px;
+  margin: 0;
 }
 #titlePicture .title {
   top:100px;
@@ -61,22 +61,22 @@ header {
   background-color:rgba(255, 255, 255, 0.8);
   color: black;
   height: 50px;
-  padding: 0px;
-  margin: 0px;
+  padding:0;
+  margin:0;
   top: 550px;
   width: 100%;
   z-index: 1000;
   min-width: 650px;
   overflow:hidden;
-  
-  /*margin:0px 100px 0px 5%;*/
+
+  /*margin:0px 100px0 5%;*/
 
 }
 header.fix-header {
   width: 100%;
   /*background-color:rgba(255, 255, 255, 0.8);*/
   position: fixed;
-  top: 0px;
+  top:0;
 }
 
 
@@ -134,8 +134,8 @@ nav a:hover
 .section {
   color: white;
   height: auto;
-  margin: 0px 0% 0px 0%;
-  border-radius: 0px;
+  margin:0 0%0 0%;
+  border-radius:0;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -178,11 +178,11 @@ nav a:hover
 
 #about p {
   display: block;
-  margin: 0px auto;
+  margin:0 auto;
   text-align: center;
   font-size: 30px;
   width: 500px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px0 20px0;
 }
 #about p span {
   color:black;
@@ -191,7 +191,7 @@ nav a:hover
 /*equal spacing div, used in skills and projects*/
 .container {
   text-align: center;
-  margin: 0px 30px 0px 30px;
+  margin:0 30px0 30px;
 }
 
 .container div {
@@ -208,7 +208,7 @@ nav a:hover
 }
 
 .skillsList li {
-  background: no-repeat 0 0px;
+  background: no-repeat 00;
   padding-left: 60px;
   line-height: 50px;
   font-size: 30px;
@@ -222,16 +222,16 @@ nav a:hover
 }
 
 #web li:nth-child(1) {
-  background: url('../img/html.png') no-repeat 0px;
+  background: url('../img/html.png') no-repeat0;
 }
 #web li:nth-child(2) {
-  background: url('../img/css.png') no-repeat 0px;
+  background: url('../img/css.png') no-repeat0;
 }
 #web li:nth-child(3) {
-  background: url('../img/javascript.png') no-repeat 0px;
+  background: url('../img/javascript.png') no-repeat0;
 }
 #web li:nth-child(4) {
-  background: url('../img/nodejs.png') no-repeat 0px;
+  background: url('../img/nodejs.png') no-repeat0;
 }
 
 #programming{
@@ -239,19 +239,19 @@ nav a:hover
 }
 
 #programming li:nth-child(1) {
-  background: url('../img/python.png') no-repeat 0px;
+  background: url('../img/python.png') no-repeat0;
 }
 #programming li:nth-child(2) {
-  background: url('../img/c++.png') no-repeat 0px;
+  background: url('../img/c++.png') no-repeat0;
 }
 #programming li:nth-child(3) {
-  background: url('../img/java.png') no-repeat 0px;
+  background: url('../img/java.png') no-repeat0;
 }
 #programming li:nth-child(4) {
-  background: url('../img/arduino.png') no-repeat 0px;
+  background: url('../img/arduino.png') no-repeat0;
 }
 #programming li:nth-child(5) {
-  background: url('../img/raspi.png') no-repeat 0px;
+  background: url('../img/raspi.png') no-repeat0;
 }
 
 #design {
@@ -259,16 +259,16 @@ nav a:hover
 }
 
 #design li:nth-child(1) {
-  background: url('../img/photoshop.png') no-repeat 0px;
+  background: url('../img/photoshop.png') no-repeat0;
 }
 #design li:nth-child(2) {
-  background: url('../img/solidworks.png') no-repeat 0px;
+  background: url('../img/solidworks.png') no-repeat0;
 }
 #design li:nth-child(3) {
-  background: url('../img/illustrator.png') no-repeat 0px;
+  background: url('../img/illustrator.png') no-repeat0;
 }
 #design li:nth-child(4) {
-  background: url('../img/linux.png') no-repeat 0px;
+  background: url('../img/linux.png') no-repeat0;
 }
 
 /*project section*/
@@ -316,7 +316,7 @@ nav a:hover
   display: inline-block;
   border: 2px solid #CCC;
   min-width: initial;
-  padding: 0px 10px 0px 10px;
+  padding:0 10px0 10px;
   border-radius: 10px;
 
 }
@@ -337,11 +337,15 @@ nav a:hover
 #contact-form .input {
   /*display: inline-block;*/
   /*float: left;*/
-  margin: 10px;
+  margin: 10px 0 10px 0;
   width: 100%;
   border: 5px solid white;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+}
+#contact-form .submit {
+  padding: 5px;
+  border: 0 solid;
 }
 .input:focus{
   background: rgba(255, 255, 255, 0.8);
@@ -350,13 +354,13 @@ nav a:hover
 #footer {
   color:white;
   height:auto;
-  margin: 0px;
-  padding: 0px;
+  margin:0;
+  padding:0;
   background: #2fadd3;
 
 }
 
 #footer p {
-  margin: 0px;
+  margin:0;
   padding-left: 10px;
 }
