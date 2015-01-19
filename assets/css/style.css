@@ -344,10 +344,26 @@ nav a:hover
   font-size: 16px;
 }
 #contact-form .submit {
+  margin: 0;
+  display:block;
   padding: 5px;
-  border: 0 solid;
+  background: white;
+  border: 5px solid transparent;
 }
+
+.submit-button {
+  width: 100%;
+  border: 5px solid white;
+  text-align: center;
+}
+
+.submit:hover {
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0);
+}
+
 .input:focus{
+  background: rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.8);
 }
 
