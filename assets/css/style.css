@@ -197,6 +197,7 @@ nav a:hover
 }
 #about p span {
   color:black;
+  font-weight: bold;
 }
 
 /*equal spacing div, used in skills and projects*/
