@@ -120,6 +120,7 @@ nav
 }
 nav a
 {
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size:25px;
   padding:15px 10px;
@@ -129,6 +130,16 @@ nav a
 nav a:hover
 {
   color:#EE1C01;
+}
+
+.dropdown {
+  position: fixed;
+  top: 100%;
+  width: 900px;
+  height: 900px;
+  background: blue;
+  z-index: 999;
+  color: red;
 }
 
 .section {
@@ -182,7 +193,7 @@ nav a:hover
   text-align: center;
   font-size: 30px;
   width: 500px;
-  padding: 20px0 20px0;
+  padding: 20px 0 20px 0;
 }
 #about p span {
   color:black;
@@ -191,7 +202,7 @@ nav a:hover
 /*equal spacing div, used in skills and projects*/
 .container {
   text-align: center;
-  margin:0 30px0 30px;
+  margin:0 30px 0 30px;
 }
 
 .container div {
@@ -222,16 +233,16 @@ nav a:hover
 }
 
 #web li:nth-child(1) {
-  background: url('../img/html.png') no-repeat0;
+  background: url('../img/html.png') no-repeat 0;
 }
 #web li:nth-child(2) {
-  background: url('../img/css.png') no-repeat0;
+  background: url('../img/css.png') no-repeat 0;
 }
 #web li:nth-child(3) {
-  background: url('../img/javascript.png') no-repeat0;
+  background: url('../img/javascript.png') no-repeat 0;
 }
 #web li:nth-child(4) {
-  background: url('../img/nodejs.png') no-repeat0;
+  background: url('../img/nodejs.png') no-repeat 0;
 }
 
 #programming{
@@ -239,19 +250,19 @@ nav a:hover
 }
 
 #programming li:nth-child(1) {
-  background: url('../img/python.png') no-repeat0;
+  background: url('../img/python.png') no-repeat 0;
 }
 #programming li:nth-child(2) {
-  background: url('../img/c++.png') no-repeat0;
+  background: url('../img/c++.png') no-repeat 0;
 }
 #programming li:nth-child(3) {
-  background: url('../img/java.png') no-repeat0;
+  background: url('../img/java.png') no-repeat 0;
 }
 #programming li:nth-child(4) {
-  background: url('../img/arduino.png') no-repeat0;
+  background: url('../img/arduino.png') no-repeat 0;
 }
 #programming li:nth-child(5) {
-  background: url('../img/raspi.png') no-repeat0;
+  background: url('../img/raspi.png') no-repeat 0;
 }
 
 #design {
@@ -259,16 +270,16 @@ nav a:hover
 }
 
 #design li:nth-child(1) {
-  background: url('../img/photoshop.png') no-repeat0;
+  background: url('../img/photoshop.png') no-repeat 0;
 }
 #design li:nth-child(2) {
-  background: url('../img/solidworks.png') no-repeat0;
+  background: url('../img/solidworks.png') no-repeat 0;
 }
 #design li:nth-child(3) {
-  background: url('../img/illustrator.png') no-repeat0;
+  background: url('../img/illustrator.png') no-repeat 0;
 }
 #design li:nth-child(4) {
-  background: url('../img/linux.png') no-repeat0;
+  background: url('../img/linux.png') no-repeat 0;
 }
 
 /*project section*/
@@ -316,7 +327,7 @@ nav a:hover
   display: inline-block;
   border: 2px solid #CCC;
   min-width: initial;
-  padding:0 10px0 10px;
+  padding:0 10px 0 10px;
   border-radius: 10px;
 
 }
