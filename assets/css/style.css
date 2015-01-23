@@ -7,6 +7,7 @@ body {
   background: #000000; /* Old browsers */
   min-width: 900px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -126,6 +127,7 @@ nav a
   padding:15px 10px;
   color:black;
   text-decoration:none;
+  font-weight: 400;
 }
 nav a:hover
 {
@@ -195,9 +197,10 @@ nav a:hover
   width: 500px;
   padding: 20px 0 20px 0;
 }
-#about p span {
+
+#about p span,a {
   color:black;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /*equal spacing div, used in skills and projects*/
