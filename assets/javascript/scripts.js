@@ -47,6 +47,20 @@ $(window).ready(function () {
     // }
   });
 
+  $("#proj").hover(
+    function () {
+      $('.dropdown').slideDown('medium', function () {
+        $('.dropButton').animate({opacity: 1},'slow');
+      });
+      //
+    },
+    function () {
+      $('.dropButton').animate({opacity: 0}, 'medium', function () {
+        $('.dropdown').slideUp('medium');
+      });
+    }
+  );
+
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
