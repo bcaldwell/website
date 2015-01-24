@@ -8,11 +8,6 @@ body {
   min-width: 1000px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
 }
 
 #backgroundImage {
@@ -66,7 +61,7 @@ header {
   top: 550px;
   width: 100%;
   z-index: 1000;
-  min-width: 500px;
+  min-width: 1000px;
   /*overflow:hidden;*/
 
   /*margin:0px 100px0 5%;*/
@@ -123,6 +118,8 @@ header {
   background-color: white;
   background-color:rgba(255, 255, 255, 0.8);
   padding-left: 10px;
+  min-width: 1000px;
+
 }
 
 .button {
