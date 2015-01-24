@@ -28,7 +28,7 @@ $(window).ready(function () {
     $(".subtitle").css("top",370);
   }
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 550) {
+    if ($(this).scrollTop() > 500) {
       $(".navBar").addClass("fix-header");
     } else {
       $(".navBar").removeClass("fix-header");
