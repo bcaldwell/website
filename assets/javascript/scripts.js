@@ -29,9 +29,9 @@ $(window).ready(function () {
   }
   $(window).scroll(function () {
     if ($(this).scrollTop() > 550) {
-      $("header").addClass("fix-header");
+      $(".navBar").addClass("fix-header");
     } else {
-      $("header").removeClass("fix-header");
+      $(".navBar").removeClass("fix-header");
     }
     //
     // if ($(this).scrollTop() > $("#about-picture").position().top) {
