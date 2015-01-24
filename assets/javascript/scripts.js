@@ -38,22 +38,22 @@ $(window).ready(function () {
       $('a[href$="about-picture"]').css("background-color","rgba(255, 255, 255, 0)");
     }
     else if ($(this).scrollTop() > $("#about-picture").position().top && $(this).scrollTop() < $("#skills-picture").position().top) {
-        $('a[href$="about-picture"]').css("background-color","rgba(255, 255, 255, 1)");
+        $('a[href$="about-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
         $('a[href$="skills-picture"]').css("background-color","rgba(255, 255, 255, 0)");
     }
     else if ($(this).scrollTop() > $("#skills-picture").position().top && $(this).scrollTop() < $("#projects-picture").position().top) {
         $('a[href$="about-picture"]').css("background-color","rgba(255, 255, 255, 0)");
-        $('a[href$="skills-picture"]').css("background-color","rgba(255, 255, 255, 1)");
+        $('a[href$="skills-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
         $('a[href$="projects-picture"]').css("background-color","rgba(255, 255, 255, 0)");
     }
     else if ($(this).scrollTop() > $("#projects-picture").position().top && $(this).scrollTop() < $("#contact-me").position().top) {
         $('a[href$="skills-picture"]').css("background-color","rgba(255, 255, 255, 0)");
-        $('a[href$="projects-picture"]').css("background-color","rgba(255, 255, 255, 1)");
+        $('a[href$="projects-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
         $('a[href$="contact-me"]').css("background-color","rgba(255, 255, 255, 0)");
     }
     else if ($(this).scrollTop() > $("#contact-me").position().top) {
       $('a[href$="projects-picture"]').css("background-color","rgba(255, 255, 255, 0)");
-      $('a[href$="contact-me"]').css("background-color","rgba(255, 255, 255, 1)");
+      $('a[href$="contact-me"]').css("background-color","rgba(0, 0, 0, 0.3)");
     }
   });
 
