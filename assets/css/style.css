@@ -5,7 +5,7 @@ body {
   padding:0;
   margin:0;
   background: #000000; /* Old browsers */
-  min-width: 900px;
+  min-width: 1000px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   /*   background: url("https://unsplash.com/photos/58zgsq3c63g/download") no-repeat center center fixed;
@@ -118,11 +118,11 @@ header {
 }
 
 .navBar {
-  width:90%;
+  width: "calc (100%-10px)";
   height: 50px;
   background-color: white;
   background-color:rgba(255, 255, 255, 0.8);
-  padding-left: 10%;
+  padding-left: 10px;
 }
 
 .button {
