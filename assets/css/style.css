@@ -1,441 +1,449 @@
 /*http://www.colourlovers.com/palette/3598986/Kindergarten with #e2db5c*/
+
 body {
-  overflow: auto;
-  position: relative;
-  padding:0;
-  margin:0;
-  background: #000000; /* Old browsers */
-  min-width: 1000px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+    overflow: auto;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    /* Old browsers */
+    
+    min-width: 1000px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: black;
 }
 
 #backgroundImage {
-  z-index: -999;
-  min-height: 100%;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
+    z-index: -999;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .picture {
-  /*background: white;*/
-  position: relative;
-  height: 300px;
-  padding: 0;
-  margin: 0 0% 0 0%;
+    /*background: white;*/
+    
+    position: relative;
+    height: 300px;
+    padding: 0;
+    margin: 0 0% 0 0%;
 }
 
 .picture > img {
-  text-align: center;
-  padding:0;
-  margin:0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .picture > h2 {
-  text-align: center;
-  padding:0;
-  margin:0;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 #titlePicture {
-  min-height: 600px;
-  height: 100vh;
-  margin: 0;
+    min-height: 600px;
+    height: 100vh;
+    margin: 0;
 }
+
 #titlePicture .title {
-  top:100px;
+    top: 100px;
 }
+
 #titlePicture .subtitle {
-  top:250px;
+    top: 250px;
 }
 
 header {
-  position: absolute;
-  color: black;
-  height: 50px;
-  padding: 0;
-  margin:0;
-  top: 500px;
-  width: 100%;
-  z-index: 1000;
-  min-width: 1000px;
-  /*overflow:hidden;*/
-
-  /*margin:0px 100px0 5%;*/
-
+    position: absolute;
+    color: black;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    top: 500px;
+    width: 100%;
+    z-index: 1000;
+    min-width: 1000px;
+    /*overflow:hidden;*/
+    /*margin:0px 100px0 5%;*/
 }
+
 .fix-header {
-  width: 100%;
-  position: fixed;
-  top:0;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
-
 
 .title {
-  position: absolute;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.7);
-  width: 100%;
-  top:50px;
-  color: #EE1C01;
-  font-size:100px;
-  font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    top: 50px;
+    color: #EE1C01;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .subtitle {
-  position: absolute;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.7);
-  color: #FF8A06;
-  width: 100%;
-  top:350px;
-  font-size:50px;
-  font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FF8A06;
+    width: 100%;
+    top: 350px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .headertitle {
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.7);
-  width: 100%;
-  color: white;
-  font-size:100px;
-  font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fill {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .navBar {
-  width: "calc (100%-10px)";
-  height: 50px;
-  background-color: white;
-  background-color:rgba(255, 255, 255, 0.8);
-  padding-left: 10px;
-  min-width: 990px;
-
+    width: "calc (100%-10px)";
+    height: 50px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-left: 10px;
+    min-width: 990px;
 }
 
 .button {
-  position:relative;
-  display:table;
-  height: 100%;
-  color:#999;
-  font-size:12pt;
-  font-weight: bold;
-  float:left;
+    position: relative;
+    display: table;
+    height: 100%;
+    color: #999;
+    font-size: 12pt;
+    font-weight: bold;
+    float: left;
 }
 
-.button-cell{
-  vertical-align: middle;
-  display:table-cell;
-  text-align:right;
-  padding-right: 20px;
-  /*margin-right:10%;*/
-  overflow:hidden;
+.button-cell {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: right;
+    padding-right: 20px;
+    /*margin-right:10%;*/
+    
+    overflow: hidden;
 }
 
-.button-cell > a
-{
-  /*position: relative;*/
-  font-family: 'Montserrat', sans-serif;
-  font-size:25px;
-  padding:15px 10px;
-  color:black;
-  text-decoration:none;
-  font-weight: 400;
+.button-cell > a {
+    /*position: relative;*/
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 15px 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
 }
 
-.button-cell > a:hover
-{
-  color: #EE1C01;
-  cursor: pointer;
-  cursor: hand;
+.button-cell > a:hover {
+    color: #EE1C01;
+    cursor: pointer;
+    cursor: hand;
 }
 
 .no-wrap {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .dropdown {
-  display:none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  background-color:rgba(255, 255, 255, 0.8);
-  z-index: 999;
-  min-width: 100%;
-  padding-top: 10px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    min-width: 100%;
+    padding-top: 10px;
 }
 
 .dropdown > .button {
-  padding-bottom: 10px;
-  padding-left: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
 }
 
 .dropButton {
-  opacity: 0;
+    opacity: 0;
 }
 
 .section {
-  color: white;
-  height: auto;
-  margin:0 0%0 0%;
-  border-radius:0;
-  font-family: 'Montserrat', sans-serif;
+    color: white;
+    height: auto;
+    margin: 0 0%0 0%;
+    border-radius: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section h1 {
-  text-align: center;
-  padding:0px;
-  margin:0px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 #about {
-  background: #EE1C01;
+    background: #F5F5F5;
 }
 
 #skills {
-  background: #FF8A06;
+    background: #F5F5F5;
 }
 
 #projects {
-  background: #954298;
-}
-#contact {
-  background: #2fadd3;
-  padding
-  : 20px;
+    background: #F5F5F5;
 }
 
+#contact {
+    background: #F5F5F5;
+    padding: 20px;
+}
 /*About Me section*/
 
 .circle {
-  height: 300px;
-  width: 300px;
-  border-radius: 150px;
-  margin:0px auto;
-  text-align: center;
-  display: block;
-  border-color: white;
-  border-width: 5px;
-  border-style: solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
 }
 
 #about > p {
-  display: block;
-  margin:0 auto;
-  text-align: center;
-  font-size: 30px;
-  width: 500px;
-  padding: 20px 0 20px 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    padding: 20px 0 20px 0;
+    color: #212121;
 }
 
-#about > p > span, #about > p > a  {
-  color:black;
-  font-weight: 700;
+#about > p > span,
+#about > p > a {
+    color: #3F51B5;
+    font-weight: 700;
 }
-
 /*equal spacing div, used in skills and projects*/
+
 .container {
-  text-align: center;
-  margin:0 30px 0 30px;
+    text-align: center;
+    margin: 0 30px 0 30px;
 }
 
 .container div {
-  width: auto;
-  display: inline-block;
-  vertical-align:top;
-  padding-top: 25px;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
 }
-
 /*Skills section*/
 
 .skillsList {
-  text-align: left;
+    text-align: left;
 }
 
 .skillsList li {
-  background: no-repeat 00;
-  padding-left: 60px;
-  line-height: 50px;
-  font-size: 30px;
-  margin-top: 14px;
-  list-style:none;
-  /*background-size: 50px 50px; /*height set to 50px*/
+    background: no-repeat 00;
+    padding-left: 60px;
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: 14px;
+    list-style: none;
+    color: #212121;
+    /*background-size: 50px 50px; /*height set to 50px*/
 }
 
-#web{
-  /*padding: 20px;*/
+#web {
+    /*padding: 20px;*/
 }
 
 #web li:nth-child(1) {
-  background: url('../img/html.png') no-repeat 0;
+    background: url('../img/html.png') no-repeat 0;
 }
+
 #web li:nth-child(2) {
-  background: url('../img/css.png') no-repeat 0;
+    background: url('../img/css.png') no-repeat 0;
 }
+
 #web li:nth-child(3) {
-  background: url('../img/javascript.png') no-repeat 0;
+    background: url('../img/javascript.png') no-repeat 0;
 }
+
 #web li:nth-child(4) {
-  background: url('../img/nodejs.png') no-repeat 0;
+    background: url('../img/nodejs.png') no-repeat 0;
 }
+
 #web li:nth-child(5) {
-  background: url('../img/marionette.png') no-repeat 0;
+    background: url('../img/marionette.png') no-repeat 0;
 }
 
-
-#programming{
-
-}
+#programming {}
 
 #programming li:nth-child(1) {
-  background: url('../img/python.png') no-repeat 0;
+    background: url('../img/python.png') no-repeat 0;
 }
+
 #programming li:nth-child(2) {
-  background: url('../img/c++.png') no-repeat 0;
+    background: url('../img/c++.png') no-repeat 0;
 }
+
 #programming li:nth-child(3) {
-  background: url('../img/java.png') no-repeat 0;
+    background: url('../img/java.png') no-repeat 0;
 }
+
 #programming li:nth-child(4) {
-  background: url('../img/arduino.png') no-repeat 0;
+    background: url('../img/arduino.png') no-repeat 0;
 }
+
 #programming li:nth-child(5) {
-  background: url('../img/raspi.png') no-repeat 0;
+    background: url('../img/raspi.png') no-repeat 0;
 }
 
-#design {
-
-}
+#design {}
 
 #design li:nth-child(1) {
-  background: url('../img/photoshop.png') no-repeat 0;
-}
-#design li:nth-child(2) {
-  background: url('../img/solidworks.png') no-repeat 0;
-}
-#design li:nth-child(3) {
-  background: url('../img/illustrator.png') no-repeat 0;
-}
-#design li:nth-child(4) {
-  background: url('../img/linux.png') no-repeat 0;
+    background: url('../img/photoshop.png') no-repeat 0;
 }
 
+#design li:nth-child(2) {
+    background: url('../img/solidworks.png') no-repeat 0;
+}
+
+#design li:nth-child(3) {
+    background: url('../img/illustrator.png') no-repeat 0;
+}
+
+#design li:nth-child(4) {
+    background: url('../img/linux.png') no-repeat 0;
+}
 /*project section*/
 
 .project {
-  margin: 40px;
-  background-color: white;
-  min-width: 400px;
-  max-width: 400px;
-  height: 500px;
-  border-radius: 20px;
-  text-align:center;
-  border: 10px solid #954298;
-
-  /*margin-left: 100px;*/
-
+    margin: 40px;
+    background-color: white;
+    min-width: 400px;
+    max-width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    border: 10px solid #F5F5F5;
+    /*margin-left: 100px;*/
 }
 
 .project:hover {
-  border: 10px solid black;
+    border: 10px solid black;
 }
 
 .project img {
-  height:200px;
-  width: 200px;
-  border-color: black;
-  background-color: white;
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    background-color: white;
 }
 
 .project h1 {
-  color:black;
-  padding-bottom: 10px;
+    color: black;
+    padding-bottom: 10px;
 }
 
 .project p {
-  color: black;
-  padding: 0 30px 10px 30px;
+    color: black;
+    padding: 0 30px 10px 30px;
 }
 
 .project .langTag {
-  background: #F8F8F8;
-  margin:0 auto;
-  padding: 0;
-  text-align: center;
-  display: inline-block;
-  border: 2px solid #CCC;
-  min-width: initial;
-  padding:0 10px 0 10px;
-  border-radius: 10px;
-
+    background: #F8F8F8;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #CCC;
+    min-width: initial;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 #contact-form {
-  text-align: left;
-  margin-left: auto ;
-  margin-right: auto ;
-  width: 500px;
-
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
-#contact-form label{
-  padding: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+#contact-form label {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #212121;
 }
+
 #contact-form .input {
-  /*display: inline-block;*/
-  /*float: left;*/
-  margin: 10px 0 10px 0;
-  width: 100%;
-  border: 5px solid white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    border: 1px solid #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #212121;
 }
+
 #contact-form .submit {
-  margin: 0;
-  display:block;
-  padding: 5px;
-  background: white;
-  border: 5px solid transparent;
+    margin: 0;
+    display: block;
+    padding: 5px;
+    background: white;
+    border: 5px solid transparent;
+    color: #212121;
 }
 
 .submit-button {
-  width: 100%;
-  border: 5px solid white;
-  text-align: center;
+    width: 100%;
+    border: 4px solid white;
+    text-align: center;
 }
 
-.submit:hover {
-  background: rgb(255, 255, 255);
-  background: rgba(255, 255, 255, 0);
+.submit-button:hover {
+    background: rgb(182, 182, 182);
+    background: rgba(182, 182, 182, 1);
 }
 
-.input:focus{
-  background: rgb(255, 255, 255);
-  background: rgba(255, 255, 255, 0.8);
+.input:focus {
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 #footer {
-  color:white;
-  height:auto;
-  margin:0;
-  padding:0;
-  background: #2fadd3;
-
+    color: white;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
 }
 
 #footer p {
-  margin:0;
-  padding-left: 10px;
+    margin: 0;
+    padding-left: 10px;
 }
