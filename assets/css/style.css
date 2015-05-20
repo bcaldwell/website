@@ -85,7 +85,7 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     top: 50px;
-    color: #EE1C01;
+    color: #3F51B5;
     font-size: 100px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -396,18 +396,21 @@ header {
 
 #contact-form label {
     padding: 10px;
+    padding-left: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #212121;
 }
 
 #contact-form .input {
+    box-sizing: border-box;
     margin: 10px 0 10px 0;
     width: 100%;
     border: 1px solid #212121;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #212121;
+    padding: 5px;
 }
 
 #contact-form .submit {
@@ -415,22 +418,16 @@ header {
     display: block;
     padding: 5px;
     background: white;
-    border: 5px solid transparent;
     color: #212121;
+    border: 1px solid #212121;
+    padding: 10px;
 }
 
-.submit-button {
-    width: 100%;
-    border: 4px solid white;
-    text-align: center;
-}
-
-.submit-button:hover {
+#contact-form .submit:hover {
     background: rgb(182, 182, 182);
-    background: rgba(182, 182, 182, 1);
 }
 
-.input:focus {
+.input::focus {
     background: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.8);
 }
