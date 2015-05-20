@@ -203,19 +203,19 @@ header {
 }
 
 #about {
-    background: #F5F5F5;
+    background: #B6B6B6;
 }
 
 #skills {
-    background: #F5F5F5;
+    background: #B6B6B6;
 }
 
 #projects {
-    background: #F5F5F5;
+    background: #B6B6B6;
 }
 
 #contact {
-    background: #F5F5F5;
+    background: #B6B6B6;
     padding: 20px;
 }
 /*About Me section*/
@@ -350,7 +350,7 @@ header {
     height: 500px;
     border-radius: 20px;
     text-align: center;
-    border: 10px solid #F5F5F5;
+    border: 10px solid #B6B6B6;
     /*margin-left: 100px;*/
 }
 
