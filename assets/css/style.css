@@ -7,7 +7,7 @@ body {
     margin: 0;
     background: #000000;
     /* Old browsers */
-    
+
     min-width: 1000px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -26,7 +26,7 @@ body {
 
 .picture {
     /*background: white;*/
-    
+
     position: relative;
     height: 300px;
     padding: 0;
@@ -134,6 +134,8 @@ header {
     font-size: 12pt;
     font-weight: bold;
     float: left;
+    max-width:15%;
+    overflow: hidden;
 }
 
 .button-cell {
@@ -142,13 +144,13 @@ header {
     text-align: right;
     padding-right: 20px;
     /*margin-right:10%;*/
-    
+
     overflow: hidden;
 }
 
 .button-cell > a {
     /*position: relative;*/
-    
+
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     padding: 15px 10px;
@@ -237,7 +239,7 @@ header {
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
-    width: 500px;
+    width: 650px;
     padding: 20px 0 20px 0;
     color: #212121;
 }
@@ -294,32 +296,40 @@ header {
 }
 
 #web li:nth-child(4) {
-    background: url('../img/nodejs.png') no-repeat 0;
+    background: url('../img/angular.png') no-repeat 0;
 }
 
 #web li:nth-child(5) {
+    background: url('../img/backbone.png') no-repeat 0;
+}
+
+#web li:nth-child(6) {
     background: url('../img/marionette.png') no-repeat 0;
 }
 
 #programming {}
 
-#programming li:nth-child(1) {
+  #programming li:nth-child(1) {
+      background: url('../img/nodejs.png') no-repeat 0;
+  }
+
+#programming li:nth-child(2) {
     background: url('../img/python.png') no-repeat 0;
 }
 
-#programming li:nth-child(2) {
+#programming li:nth-child(3) {
     background: url('../img/c++.png') no-repeat 0;
 }
 
-#programming li:nth-child(3) {
+#programming li:nth-child(4) {
     background: url('../img/java.png') no-repeat 0;
 }
 
-#programming li:nth-child(4) {
+#programming li:nth-child(5) {
     background: url('../img/arduino.png') no-repeat 0;
 }
 
-#programming li:nth-child(5) {
+#programming li:nth-child(6) {
     background: url('../img/raspi.png') no-repeat 0;
 }
 
