@@ -56,7 +56,7 @@ $(window).ready(function () {
       $('a[href$="contact-me"]').css("background-color","rgba(0, 0, 0, 0.3)");
     }
   });
-
+  
   $(".dropdownButton").hover(
     function () {
       $('.dropdown').slideDown('medium', function () {

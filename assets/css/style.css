@@ -1,4 +1,8 @@
-/*http://www.colourlovers.com/palette/3598986/Kindergarten with #e2db5c*/
+@media (max-width: 1100px) {
+  .small-hidden {
+    display: none !important;
+  }
+}
 
 body {
     overflow: auto;
@@ -118,24 +122,25 @@ header {
 }
 
 .navBar {
-    width: "calc (100%-10px)";
+    width: calc(100% - 10px);
     height: 50px;
     background-color: white;
     background-color: rgba(255, 255, 255, 0.8);
     padding-left: 10px;
     min-width: 990px;
+    white-space: nowrap;
 }
 
 .button {
     position: relative;
-    display: table;
+    display: inline-table;
     height: 100%;
     color: #999;
     font-size: 12pt;
     font-weight: bold;
-    float: left;
+    /*float: left;*/
     max-width:15%;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .button-cell {
