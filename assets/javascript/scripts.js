@@ -16,8 +16,8 @@ $(window).ready(function () {
   $("#backgroundImage").attr('src',images[Math.floor(Math.random()*12)]);
 
   <!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
+// <script type="text/javascript">
+  (function(){var _paq = _paq || [];
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
@@ -26,9 +26,9 @@ $(window).ready(function () {
     _paq.push(['setSiteId', 1]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//analytics.benjamincaldwell.me/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+  })();})();
+// </script>
+// <noscript><p><img src="//analytics.benjamincaldwell.me/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
