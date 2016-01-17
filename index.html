@@ -23,26 +23,47 @@
   <meta name="viewport" content="width=device-width" />
 
   <!-- Piwik -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//analytics.caldwellbenjam.in/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 1]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//analytics.caldwellbenjam.in/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u = "//analytics.caldwellbenjam.in/";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
+      _paq.push(['setSiteId', 1]);
+      var d = document,
+        g = d.createElement('script'),
+        s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript';
+      g.async = true;
+      g.defer = true;
+      g.src = u + 'piwik.js';
+      s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <noscript>
+    <p><img src="//analytics.caldwellbenjam.in/piwik.php?idsite=1" style="border:0;" alt="" /></p>
+  </noscript>
+  <!-- End Piwik Code -->
+
+  <!-- browser-update code -->
+  <script>
+    var $buoop = {c:2};
+    function $buo_f(){
+     var e = document.createElement("script");
+     e.src = "//browser-update.org/update.min.js";
+     document.body.appendChild(e);
+    };
+    try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+    catch(e){window.attachEvent("onload", $buo_f)}
+  </script>
+  <!-- End browser-update code  -->
 
 </head>
 
 <body>
 
-  <div id="backgroundImage" > </div>
+  <div id="backgroundImage"> </div>
 
   <div id="home"></div>
   <div class="picture" align="center" id="titlePicture">
@@ -97,6 +118,16 @@
             </div>
           </div>
         </div>
+        <!-- <div class="dropdown" id="proj-dropdown">
+          <div class="button dropButton">
+            <div class="button-cell no-wrap">
+              <a target="_blank" href="https://gitlab.caldwellbenjam.in">
+                <i class="fa fa-gitlab"></i>
+                <span>Gitlab</span>
+              </a>
+            </div>
+          </div>
+        </div> -->
       </div>
       <div class="button">
         <div class="button-cell no-wrap">
@@ -190,29 +221,31 @@
   <div class="section" id="projects">
     <h1 style="text-align: center;"></h1>
     <div class="container">
-      <div class="project" onclick="window.open('https://github.com/benjamincaldwell/Sudoku-game');" style="cursor:pointer;">
-        <h1>Sudoku</h1>
-        <img src="assets/img/sudoku.png" class="circle">
-        <p>Allows user to solve sudokus and check their answers</p>
-        <p class="langTag">Java</p>
-      </div>
-      <div class="project" onclick="window.open('https://github.com/benjamincaldwell/To-do-List-manager');" style="cursor:pointer;">
-        <h1>ToDo Manager</h1>
-        <img src="assets/img/todo.png" class="circle">
-        <p>Tracks tasks and their due dates for up to 9 subjects</p>
-        <p class="langTag">Java</p>
-      </div>
       <div class="project" onclick="window.open('http://hackthenorth.challengepost.com/submissions/27202-botscape');" style="cursor:pointer;">
+        <img class="banner" src="assets/img/winner.png"/>
         <h1>Botscape/aiXia</h1>
-        <img src="assets/img/botscape.png" class="circle">
+        <img class="project-picture" src="assets/img/botscape.png" class="circle">
         <p>A massively multiplayer online game for artificial intelligence players. Won 10 top at Hack the North</p>
         <p class="langTag">Node.js</p>
         <p class="langTag">HTML</p>
         <p class="langTag">CSS</p>
       </div>
+      <div class="project" onclick="window.open('https://github.com/benjamincaldwell/Sudoku-game');" style="cursor:pointer;">
+        <div class="banner"></div>
+        <h1>Sudoku</h1>
+        <img class="project-picture" src="assets/img/sudoku.png" class="circle">
+        <p>Allows user to solve sudokus and check their answers</p>
+        <p class="langTag">Java</p>
+      </div>
+      <div class="project" onclick="window.open('https://github.com/benjamincaldwell/To-do-List-manager');" style="cursor:pointer;">
+        <h1>ToDo Manager</h1>
+        <img class="project-picture" src="assets/img/todo.png" class="circle">
+        <p>Tracks tasks and their due dates for up to 9 subjects</p>
+        <p class="langTag">Java</p>
+      </div>
       <div class="project" onclick="window.open('https://robotracing.wordpress.com/');" style="cursor:pointer;">
         <h1>WCI IARRC Team Leader</h1>
-        <img src="assets/img/iarrc.png" class="circle">
+        <img class="project-picture" src="assets/img/iarrc.png" class="circle">
         <p>Leader of Collegiate Institute International Autonomous Robot Racing Challenge Team. We designed and implemented algorithms for road detection and collision avoidance</p>
         <p class="langTag">Arduino</p>
         <p class="langTag">Python</p>
@@ -220,14 +253,14 @@
       </div>
       <div class="project" onclick="window.open('https://benjaoud.me');" style="cursor:pointer;">
         <h1>Benjaoud</h1>
-        <img src="assets/img/benjaoud.png" class="circle">
+        <img class="project-picture" src="assets/img/benjaoud.png" class="circle">
         <p>Personal cloud storage hosted on a Banana Pi</p>
         <p class="langTag">Linux</p>
         <p class="langTag">nginx</p>
       </div>
       <div class="project" onclick="window.open('https://github.com/benjamincaldwell');" style="cursor:pointer;">
         <h1>GitHub</h1>
-        <img src="assets/img/github.png" class="circle">
+        <img class="project-picture" src="assets/img/github.png" class="circle">
         <p>Click here to visit my GitHub page</p>
         <p class="langTag">Many</p>
       </div>
