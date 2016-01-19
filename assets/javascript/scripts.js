@@ -1,19 +1,19 @@
 $(window).ready(function () {
-  var images = [
-  'assets/img/backgrounds/background.jpg',
-  'assets/img/backgrounds/background1.jpg',
-  'assets/img/backgrounds/background2.jpg',
-  'assets/img/backgrounds/background3.jpg',
-  'assets/img/backgrounds/background4.jpg',
-  'assets/img/backgrounds/background5.jpg',
-  'assets/img/backgrounds/background6.jpg',
-  'assets/img/backgrounds/background7.jpg',
-  'assets/img/backgrounds/background8.jpg',
-  'assets/img/backgrounds/background9.jpg',
-  'assets/img/backgrounds/background10.jpg',
-  'assets/img/backgrounds/background11.jpg'
-  ];
-  $("#backgroundImage").attr('src',images[Math.floor(Math.random()*12)]);
+  // var images = [
+  // 'assets/img/backgrounds/background.jpg',
+  // 'assets/img/backgrounds/background1.jpg',
+  // 'assets/img/backgrounds/background2.jpg',
+  // 'assets/img/backgrounds/background3.jpg',
+  // 'assets/img/backgrounds/background4.jpg',
+  // 'assets/img/backgrounds/background5.jpg',
+  // 'assets/img/backgrounds/background6.jpg',
+  // 'assets/img/backgrounds/background7.jpg',
+  // 'assets/img/backgrounds/background8.jpg',
+  // 'assets/img/backgrounds/background9.jpg',
+  // 'assets/img/backgrounds/background10.jpg',
+  // 'assets/img/backgrounds/background11.jpg'
+  // ];
+  // $("#backgroundImage").attr('src',images[Math.floor(Math.random()*12)]);
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,27 +27,28 @@ $(window).ready(function () {
   // if ($(window).width() < 970) {
   //   $(".subtitle").css("top",370);
   // }
+  var navBarTop = $('header').position().top;
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 500) {
+    if ($(this).scrollTop() > navBarTop) {
       $(".navBar").addClass("fix-header");
     } else {
       $(".navBar").removeClass("fix-header");
     }
 
-    if ($(this).scrollTop() < $("#about-picture").position().top){
-      $('a[href$="about-picture"]').css("background-color","rgba(255, 255, 255, 0)");
+    if ($(this).scrollTop() < $("#about-me").position().top){
+      $('a[href$="about-me"]').css("background-color","rgba(255, 255, 255, 0)");
     }
-    else if ($(this).scrollTop() > $("#about-picture").position().top && $(this).scrollTop() < $("#skills-picture").position().top) {
-        $('a[href$="about-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
-        $('a[href$="skills-picture"]').css("background-color","rgba(255, 255, 255, 0)");
-    }
-    else if ($(this).scrollTop() > $("#skills-picture").position().top && $(this).scrollTop() < $("#projects-picture").position().top) {
-        $('a[href$="about-picture"]').css("background-color","rgba(255, 255, 255, 0)");
-        $('a[href$="skills-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
+    else if ($(this).scrollTop() > $("#about-me").position().top && $(this).scrollTop() < $("#projects-picture").position().top) {
+        $('a[href$="about-me"]').css("background-color","rgba(0, 0, 0, 0.3)");
         $('a[href$="projects-picture"]').css("background-color","rgba(255, 255, 255, 0)");
     }
+    // else if ($(this).scrollTop() > $("#skills-picture").position().top && $(this).scrollTop() < $("#projects-picture").position().top) {
+    //     $('a[href$="about-picture"]').css("background-color","rgba(255, 255, 255, 0)");
+    //     $('a[href$="skills-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
+    //     $('a[href$="projects-picture"]').css("background-color","rgba(255, 255, 255, 0)");
+    // }
     else if ($(this).scrollTop() > $("#projects-picture").position().top && $(this).scrollTop() < $("#contact-me").position().top) {
-        $('a[href$="skills-picture"]').css("background-color","rgba(255, 255, 255, 0)");
+        $('a[href$="about-me"]').css("background-color","rgba(255, 255, 255, 0)");
         $('a[href$="projects-picture"]').css("background-color","rgba(0, 0, 0, 0.3)");
         $('a[href$="contact-me"]').css("background-color","rgba(255, 255, 255, 0)");
     }

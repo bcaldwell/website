@@ -113,6 +113,7 @@ header {
     color: #EEEEEE;
     font-size: 100px;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .subtitle {
@@ -163,6 +164,7 @@ div .down-arrow {
     padding-left: 10px;
     /*min-width: 990px;*/
     white-space: nowrap;
+    text-align: center;
 }
 
 .button {
