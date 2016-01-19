@@ -92,7 +92,7 @@ header {
     height: 50px;
     padding: 0;
     margin: 0;
-    top: 500px;
+    top: 400px;
     width: 100%;
     z-index: 1000;
     /*min-width: 1000px;*/
@@ -147,6 +147,7 @@ div .down-arrow {
 
 .down-arrow:hover {
     color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
 }
 
 .fill {
@@ -229,6 +230,7 @@ div .down-arrow {
 
 .dropButton {
     opacity: 0;
+    float: left;
 }
 
 .section {
