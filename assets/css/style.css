@@ -2,6 +2,15 @@
   .small-hidden {
     display: none !important;
   }
+  .project {
+      width: 90%;
+  }
+  .subtitle {
+      display: none;
+  }
+  header {
+      display: none !important;
+  }
 }
 
 body {
@@ -12,7 +21,7 @@ body {
     background: #000000;
     /* Old browsers */
 
-    min-width: 1000px;
+    /*min-width: 1000px;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: black;
@@ -86,7 +95,7 @@ header {
     top: 500px;
     width: 100%;
     z-index: 1000;
-    min-width: 1000px;
+    /*min-width: 1000px;*/
     /*overflow:hidden;*/
     /*margin:0px 100px0 5%;*/
 }
@@ -124,6 +133,21 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
+div .down-arrow {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 100px;
+    line-height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.down-arrow:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .fill {
     width: 100%;
     height: 100%;
@@ -137,7 +161,7 @@ header {
     background-color: white;
     background-color: rgba(255, 255, 255, 0.8);
     padding-left: 10px;
-    min-width: 990px;
+    /*min-width: 990px;*/
     white-space: nowrap;
 }
 
@@ -254,7 +278,7 @@ header {
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
-    width: 650px;
+    max-width: 650px;
     padding: 20px 0 20px 0;
     color: #212121;
 }
@@ -430,7 +454,7 @@ header {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    max-width: 500px;
 }
 
 #contact-form label {
@@ -476,7 +500,7 @@ header {
     height: auto;
     margin: 0;
     padding: 0;
-    background: #F5F5F5;
+    background: #B6B6B6;
 }
 
 #footer p {

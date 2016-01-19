@@ -57,8 +57,7 @@ $(window).ready(function () {
     }
   });
 
-  $(".dropdownButton").hover(
-    function () {
+  $(".dropdownButton").hover(function () {
       $('.dropdown').slideDown('medium', function () {
         $('.dropButton').animate({opacity: 1},'slow');
       });
@@ -67,8 +66,15 @@ $(window).ready(function () {
       $('.dropButton').animate({opacity: 0}, 'medium', function () {
         $('.dropdown').slideUp('medium');
       });
-    }
-  );
+    });
+
+    var firstSection = $("#about-me");
+
+    $(".down-arrow").on("click", function(e){
+        $('html,body').animate({
+          scrollTop: firstSection.offset().top +1
+        }, 1000);
+    });
 
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {

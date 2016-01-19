@@ -66,11 +66,12 @@
   <div id="backgroundImage"> </div>
 
   <div id="home"></div>
-  <div class="picture" align="center" id="titlePicture">
+  <div class="picture" align="center" id="titlePicture" style="position: relative">
     <!-- <div id="" height="100%" width="100%"></div> -->
     <h1 class="title">Benjamin Caldwell</h1>
-    <h3 class="subtitle">Systems Design Engineering
-      <br>University of Waterloo</h3>
+    <!-- <h3 class="subtitle">Systems Design Engineering
+      <br>University of Waterloo</h3> -->
+      <div class="fa fa-angle-down down-arrow"></div>
   </div>
 
   <header>
@@ -85,20 +86,20 @@
       </div>
       <div class="button">
         <div class="button-cell no-wrap">
-          <a href="#about-picture">
+          <a href="#about-me">
             <i class="fa fa-info-circle"></i>
             <span>About Me</span>
           </a>
         </div>
       </div>
-      <div class="button">
+      <!-- <div class="button">
         <div class="button-cell no-wrap">
           <a href="#skills-picture">
             <i class="fa fa-laptop"></i>
             <span>My Skills</span>
           </a>
         </div>
-      </div>
+      </div> -->
       <div class="button dropdownButton">
         <div class="button-cell no-wrap">
           <a href="#projects-picture">
@@ -149,7 +150,7 @@
 
   </header>
 
-  <div class="picture" id="about-picture" align="center" style="height:300px;">
+  <div class="picture" id="about-me" align="center" style="height:300px;">
     <!-- <img src="https://unsplash.com/photos/HzaT5l4Fzqc/download" height="100%" width="100%"> -->
     <h1 class="title">About Me</h1>
   </div>
@@ -173,8 +174,8 @@
 
   </div>
 
-  <div class="picture" id="skills-picture" align="center" style="height:300px;">
-    <!-- <img src="https://unsplash.com/photos/xBYD4tt8ANo/download" height="100%" width="100%"> -->
+  <!-- <div class="picture" id="skills-picture" align="center" style="height:300px;">
+    <img src="https://unsplash.com/photos/xBYD4tt8ANo/download" height="100%" width="100%">
     <h1 class="title">My Skills</h1>
   </div>
 
@@ -210,7 +211,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <div class="picture" id="projects-picture" align="center" style="height:300px;">
@@ -286,6 +287,13 @@
         <p class="langTag">Python</p>
         <p class="langTag">OpenCV</p>
       </div>
+      <!-- <div class="project" onclick="window.open('https://benjaoud.me');" style="cursor:pointer;">
+        <h1>Benjaoud</h1>
+        <img class="project-picture" src="assets/img/benjaoud.png" class="circle">
+        <p>Personal cloud storage hosted on a Banana Pi</p>
+        <p class="langTag">Linux</p>
+        <p class="langTag">nginx</p>
+      </div> -->
       <div class="project" onclick="window.open('https://github.com/benjamincaldwell');" style="cursor:pointer;">
         <h1>GitHub</h1>
         <img class="project-picture" src="assets/img/github.png" class="circle">
