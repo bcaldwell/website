@@ -235,6 +235,7 @@ div .down-arrow {
     margin: 0 0%0 0%;
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
+    background: #242424
 }
 
 .section h1 {
@@ -243,20 +244,7 @@ div .down-arrow {
     margin: 0px;
 }
 
-#about {
-    background: #B6B6B6;
-}
-
-#skills {
-    background: #B6B6B6;
-}
-
-#projects {
-    background: #B6B6B6;
-}
-
 #contact {
-    background: #B6B6B6;
     padding: 20px;
 }
 /*About Me section*/
@@ -280,7 +268,7 @@ div .down-arrow {
     font-size: 30px;
     max-width: 650px;
     padding: 20px 0 20px 0;
-    color: #212121;
+    color: #eeeeee;
 }
 
 #about > p > span,
@@ -398,14 +386,14 @@ div .down-arrow {
     width: 400px;
     border-radius: 20px;
     text-align: center;
-    border: 10px solid #B6B6B6;
+    border: 10px solid #242424;
     position: relative;
     padding: 25px 0 25px 0;
     /*margin-left: 100px;*/
 }
 
 .project:hover {
-    border: 10px solid black;
+    border: 10px solid rgba(0, 121, 107, 0.8);
 }
 
 .project .project-picture {
@@ -462,7 +450,7 @@ div .down-arrow {
     padding-left: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    color: #212121;
+    color: #EEEEEE;
 }
 
 #contact-form .input {
@@ -482,17 +470,17 @@ div .down-arrow {
     padding: 5px;
     background: white;
     color: #212121;
-    border: 1px solid #212121;
+    border: 10px solid white;
     padding: 10px;
 }
 
 #contact-form .submit:hover {
-    background: rgb(182, 182, 182);
+    border: 10px solid rgba(0, 121, 107, 0.8);
 }
 
 .input::focus {
-    background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 121, 107);
+    background: rgba(0, 121, 107, 0.8);
 }
 
 #footer {
